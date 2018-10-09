@@ -9,7 +9,7 @@ public class Calculadora {
         return valor3 - valor4;
     }
 
-    public float divisao (float valor5, float valor6){
+    public int divisao (int valor5, int valor6){
         return valor5/valor6;
     }
     public int multiplica (int valor7, int valor8){

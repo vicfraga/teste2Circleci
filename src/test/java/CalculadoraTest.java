@@ -22,16 +22,18 @@ public class CalculadoraTest {
     }
 
 @Test
-public void testeDiv(){
-    Calculadora calcDiv = new Calculadora();
-        float resultado3 = calcDiv.divisao(99, 3);
-            assertEquals(33, resultado3);
-}
-
-@Test
 public void testeMult(){
     Calculadora calcMult = new Calculadora();
     int resultado4 = calcMult.multiplica(5,9);
         assertEquals(45, resultado4);
 }
+
+@Test
+    public void testeDiv (){
+        Calculadora calcDiv = new Calculadora();
+        int resultado5 = calcDiv.divisao(30,10);
+        assertEquals(3,resultado5);
+}
+
+
 }
