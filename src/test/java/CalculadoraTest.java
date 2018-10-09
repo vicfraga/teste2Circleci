@@ -24,8 +24,8 @@ public class CalculadoraTest {
 @Test
 public void testeMult(){
     Calculadora calcMult = new Calculadora();
-    int resultado4 = calcMult.multiplica(5,9);
-        assertEquals(45, resultado4);
+    int resultado4 = calcMult.multiplica(6,3);
+        assertEquals(18, resultado4);
 }
 
 @Test
