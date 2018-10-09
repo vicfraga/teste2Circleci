@@ -13,4 +13,11 @@ public class CalculadoraTest {
         assertEquals(10, resultado);
 
     }
+    @Test
+    public void testeSub(){
+
+        Calculadora calcSub = new Calculadora();
+        int resultado2 = calcSub.subtracao(50, 25);
+        assertEquals(25, resultado2);
+    }
 }
